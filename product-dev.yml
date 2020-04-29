@@ -14,3 +14,6 @@
     port: 5672
     username: guest
     password: guest
+  redis:
+    host: localhost
+    port: 6379
