@@ -1,0 +1,19 @@
+server:
+  port: 9000
+
+zuul:
+  routes:
+    #/myProduct/product/list -> /product/product/list
+    #myProduct这个可以随便定义，但是path中的路径不可以
+    myProduct:
+      path: /myProduct/**
+      serviceId: product
+  #排除某些路由
+  ignored-patterns:
+#    - /product/product/listForOrder
+#    - /myProduct/product/listForOrder
+#    - /**/product/listForOrder
+
+management:
+  security:
+    enabled: false
