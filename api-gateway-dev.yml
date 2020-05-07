@@ -8,6 +8,9 @@ zuul:
     myProduct:
       path: /myProduct/**
       serviceId: product
+    myUser:
+      path: /myuser/**
+      serviceId: user
   #排除某些路由
   ignored-patterns:
 #    - /product/product/listForOrder
