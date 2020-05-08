@@ -13,6 +13,9 @@ zuul:
     myUser:
       path: /myuser/**
       serviceId: user
+    myOrder:
+      path: /myOrder/**
+      serviceId: order
   #排除某些路由
   ignored-patterns:
 #    - /product/product/listForOrder
