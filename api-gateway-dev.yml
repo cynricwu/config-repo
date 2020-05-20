@@ -1,6 +1,6 @@
 server:
-  #port: 9000
-  port: 8086
+  port: 9000
+  #port: 8086
 
 zuul:
   #全部服务忽略敏感头（全部服务都可以传递cookies）
