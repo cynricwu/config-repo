@@ -18,5 +18,5 @@
     host: localhost
     port: 6379
   girl:
-    name: lili
-    age: 666
+    name: guodongchang
+    age: 18
