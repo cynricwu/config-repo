@@ -17,6 +17,6 @@
   redis:
     host: localhost
     port: 6379
-  girl:
+ girl:
     name: guodongchang
     age: 18
