@@ -10,5 +10,5 @@
     host: localhost
     port: 6379
  girl:
-    name: guodongchang
-    age: 62
+    name: guodongchang2
+    age: 6
